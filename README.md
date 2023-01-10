@@ -16,3 +16,6 @@
 	- [Commands/experience](https://minecraft.fandom.com/wiki/Commands/experience)
 	- [Commands/give](https://minecraft.fandom.com/wiki/Commands/give)
 	- [Commands/locate](https://minecraft.fandom.com/wiki/Commands/locate)
+
+## Благодарности:
+- [Лучшая статья по публикации проекта на GitHub. GitHub: настройка и первая публикация проекта](https://gb.ru/posts/github-nastrojka-i-pervaya-publikaciya-proekta?ysclid=lcq1k9i9dv401318219)
