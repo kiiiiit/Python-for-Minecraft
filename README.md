@@ -18,4 +18,5 @@
 	- [Commands/locate](https://minecraft.fandom.com/wiki/Commands/locate)
 
 ## Благодарности:
-- [Лучшая статья по публикации проекта на GitHub. GitHub: настройка и первая публикация проекта](https://gb.ru/posts/github-nastrojka-i-pervaya-publikaciya-proekta?ysclid=lcq1k9i9dv401318219)
+- [Лучшая статья по публикации проекта на GitHub - How to Push an Existing Project to GitHub](https://www.digitalocean.com/community/tutorials/how-to-push-an-existing-project-to-github)
+- [GitHub: настройка и первая публикация проекта](https://gb.ru/posts/github-nastrojka-i-pervaya-publikaciya-proekta?ysclid=lcq1k9i9dv401318219)
