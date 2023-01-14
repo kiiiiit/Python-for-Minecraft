@@ -3,15 +3,16 @@
 # import mcpi.entity as entity
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
-# mc = Minecraft.create("localhost", 4711)
+# mc = Minecraft.create("192.168.50.11", 4711)
 
 # x,y,z = pos = mc.player.getTilePos()
 # x,y,z = pos = -300,-30,-450 # Здесь много лута и и гавно плавает!
-# x,y,z = pos = 0,0,0
 x,y,z = pos = 0,0,0
-mc.setBlocks(x-3, y, z-3, x+3, y+3, z+3, 0)
-mc.setBlocks(x-3, y-1, z-3, x+3, y-1, z+3, 152)
-mc.setBlock (x, y+3, z, 89)
+width = 3
+y = mc.getHeight(x,z)
+mc.setBlocks(x-width, y, z-width, x+width, y+width, z+width, 0)
+mc.setBlocks(x-width, y-1, z-width, x+width, y-1, z+width, 152)
+mc.setBlock (x, y+width, z, 89)
 mc.player.setTilePos(pos)
 
 # flower = 38

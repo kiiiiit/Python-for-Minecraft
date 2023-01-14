@@ -1,8 +1,16 @@
-#import time
 from mcpi.minecraft import Minecraft
 mc = Minecraft.create()
 
-# x,y,z = pos = mc.player.getTilePos()
-# mc.player.setTilePos(pos)
-# mc.setBlocks(pos, x+7,y-3,z+3, 9)
-# mc.postToChat("x="+str(pos.x) + " y="+str(pos.y) + " z="+str(pos.z))
+def my_func(x):
+    # blocks = [5,14,15,16,17,(17,1),(17,2),(17,3),21,37,38,39,40,56,73,129]
+    # if x not in blocks:
+    if x==1: x=152
+    print ("fn x: ",x)
+    return x
+
+x,y,z = pos = mc.player.getTilePos()
+
+h = 3
+now = mc.getBlocks(pos, x+h, y+h, z+h)
+new = map(my_func, now)
+mc.setBlocks(new)
