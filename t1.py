@@ -6,9 +6,10 @@ x,y,z = pos = mc.player.getTilePos()
 # x,y,z = pos = 0,0,0
 print("Position is: ", pos)
 
-delta_x = x+2
-delta_y = y+2-1
-delta_z = z+2
+delta = 2
+delta_x = x+delta
+delta_y = y+delta
+delta_z = z+delta
 block = 0
 m = 0
 
