@@ -8,7 +8,7 @@ zz = 5
 mc.setBlocks(x-zz, y, z-zz, x+zz, y+zz*2, z+zz, 0)
 
 # Строим 4 маяка
-blocks = [133, 41, 42, 57]
+blocks = [133, 41, 42, 57, 41]
 h = 4 # Высота
 # x = x+3
 y = y+h-1

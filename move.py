@@ -7,13 +7,21 @@ mc = Minecraft.create()
 
 # x,y,z = pos = mc.player.getTilePos()
 # x,y,z = pos = -300,-30,-450 # Здесь много лута и и гавно плавает!
-x,y,z = pos = 0,0,0
-width = 3
+# pos: x:-134,y:-75,z:81 # Красивый поздемный биом
+# pos: x:-402,y:-1,z:91 - дерево на острове
+# pos: x:-685,y:4,z:-133 - пчелы и рядом деревня
+
+# x,y,z = pos = 0,0,0
+x = int(input("x: "))
+# y = int(input("y: "))
+z = int(input("z: "))
+
+# width = 3
 y = mc.getHeight(x,z)
-mc.setBlocks(x-width, y, z-width, x+width, y+width, z+width, 0)
-mc.setBlocks(x-width, y-1, z-width, x+width, y-1, z+width, 152)
-mc.setBlock (x, y+width, z, 89)
-mc.player.setTilePos(pos)
+# mc.setBlocks(x-width, y, z-width, x+width, y+width, z+width, 0)
+# mc.setBlocks(x-width, y-1, z-width, x+width, y-1, z+width, 152)
+mc.setBlock (x, y, z, 89)
+mc.player.setTilePos(x,y+1,z)
 
 # flower = 38
 # flowerColor = 3

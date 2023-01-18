@@ -1,8 +1,8 @@
 # import mcpi.block
 import time
 from mcpi.minecraft import Minecraft
-# mc = Minecraft.create()
-mc = Minecraft.create("192.168.50.11", 4711)
+mc = Minecraft.create()
+# mc = Minecraft.create("192.168.50.11", 4711)
 
 wall = 155
 air = 0
